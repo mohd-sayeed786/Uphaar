@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "410822541395",
+    "firebase_url": "https://uphaar-3db8f.firebaseio.com",
+    "project_id": "uphaar-3db8f",
+    "storage_bucket": "uphaar-3db8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410822541395:android:3230d5e5f41efdcb",
+        "android_client_info": {
+          "package_name": "com.sayeed.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410822541395-2d2kq1knfan9ud6vd6lqka5qbbfqq3sj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sayeed.bloodbank",
+            "certificate_hash": "9283fbc9c6cdb7a29600ce03dc5b866b11b6e03e"
+          }
+        },
+        {
+          "client_id": "410822541395-2njuad0jib47sok6s6ifn8nlutpcnamk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlrL14xc26BAQnMwatuP4XzKlsYN79bW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410822541395-2njuad0jib47sok6s6ifn8nlutpcnamk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

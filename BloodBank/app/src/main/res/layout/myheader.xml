@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#1966BF"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/launch2"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/username"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:text="MOHAMMAD SAYEED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/useremail"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sayeed.mcs17.du@gmail.com"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+</LinearLayout>
+
+</LinearLayout>

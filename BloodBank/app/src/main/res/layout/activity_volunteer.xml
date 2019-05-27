@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".VolunteerActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <customfonts.MyEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"
+                android:background="#f0f0f4"
+                android:hint="Name"
+                android:padding="12dp"
+                android:textColor="#000" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <customfonts.MyEditText
+                    android:id="@+id/gender"
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#f0f0f4"
+                    android:hint="Gender"
+                    android:inputType="text"
+                    android:padding="12dp"
+                    android:textColor="#000" />
+
+                <customfonts.MyEditText
+                    android:id="@+id/age"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#f0f0f4"
+                    android:hint="Age"
+                    android:inputType="text"
+                    android:padding="12dp"
+                    android:textColor="#000" />
+
+
+            </LinearLayout>
+
+            <customfonts.MyEditText
+                android:id="@+id/mob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#f0f0f4"
+                android:hint="Mobile No."
+                android:padding="12dp"
+                android:textColor="#000" />
+
+            <customfonts.MyEditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#f0f0f4"
+                android:hint="Address"
+                android:padding="30dp"
+                android:textColor="#000" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                 <!--<ProgressBar
+                    android:visibility="gone"
+                    android:id="@+id/bar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" /-->
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\t\tPREFERABLE WORK\n\n\t\t\t1.Delivering Flyers\n\t\t\t2.Taking Phonecalls\n\t\t\t3.Entering Data\n\t\t\t4.Door to Door Work"
+                    android:textColor="#E5FFFA"
+                    android:textSize="20dp" />
+
+              <!--  <ImageView
+                    android:id="@+id/profile"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="19dp"
+                    android:background="@drawable/upload" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="100dp"
+                    android:layout_marginEnd="33dp"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+               -->
+
+            </RelativeLayout>
+
+
+            <customfonts.MyEditText
+                android:id="@+id/pref"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#f0f0f4"
+                android:hint="Preferable Work"
+                android:padding="12dp"
+                android:textColor="#000" />
+
+            <customfonts.MyEditText
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#f0f0f4"
+                android:hint="When time you will be available ?"
+                android:padding="12dp"
+                android:textColor="#000" />
+
+            <customfonts.MyEditText
+                android:id="@+id/join"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#f0f0f4"
+                android:hint="Why you want to join?"
+                android:padding="30dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:padding="14dp"
+                android:text="Upload ID in Image Format"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:background="@drawable/btnformate"
+                android:padding="14dp"
+                android:onClick="UploadImage"
+                android:text="ID UPLOAD"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/act"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btnformate"
+                android:gravity="center"
+                android:onClick="Second"
+                android:padding="14dp"
+                android:text="Submit"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="16dp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

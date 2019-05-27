@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/thome"
+        android:title="Home" />
+    <item
+        android:id="@+id/game"
+        android:icon="@drawable/game3"
+        android:title="Game" />
+    <item
+        android:id="@+id/register"
+        android:icon="@drawable/treg"
+        android:title="Register" />
+    <item
+        android:id="@+id/attendance"
+        android:icon="@drawable/attendence2"
+        android:title="Attendence" />
+    <item
+        android:id="@+id/ngo"
+        android:icon="@drawable/ngo"
+        android:title="NGO" />
+    <item
+        android:id="@+id/volunteer"
+        android:icon="@drawable/tvol3"
+        android:title="Volunteer" />
+
+</group>
+
+    <item android:title="               USER">
+
+        <menu>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/tlog"
+                android:title="Logout" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="About" />
+
+            </menu>
+
+
+    </item>
+
+
+</menu>
